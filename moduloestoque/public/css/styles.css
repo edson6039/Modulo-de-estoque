@@ -1,0 +1,464 @@
+*{
+    font-family: Roboto;
+}
+    
+
+body {
+    min-height: 100vh;
+    /*tela em 100%*/
+    padding-bottom: 20px;
+    position: relative; ;
+}
+
+#navbar{
+    justify-content: space-between;
+    border-bottom: 1 px solid #fff;
+    height:20px;
+}
+
+#navbar2{
+    justify-content: space-between;
+    border-bottom: 1 px solid #fff;
+    padding: 0px 25px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#navbar2 img{
+    width:50px;
+    margin-left: 35px;
+}
+
+#navbar2 p{
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+}
+
+.row{
+    margin:0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.btn-secondary{
+    background-color: #555448;
+    border: 1px solid #000000;
+}
+
+.msg{
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px; 
+}
+
+.already-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #CCE5FF;
+    border: 1px solid #B8DAFF;
+    text-align: center;
+    padding: 10px;
+    width: 275px;
+}
+
+
+/*banner do pao*/
+
+#search-container{
+    background-image: url(../img/pao.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height:150px;
+    padding: 0px 0px 0px 0px;
+} 
+ion-icon {
+    font-size: 38px;
+    color: #000000;
+  }
+
+#search2-container form{
+    width: 130%;
+    margin-top: 7px;
+}
+
+/*lista de produtos */
+#products-container h2{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+    
+}
+
+#btncomprar{
+    background-color: #FFCA2C;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
+}
+
+#products-container{
+
+    padding-top: 50px;
+    padding: 50px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#products-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+    margin-bottom:50px
+
+
+}
+
+#products-container img{
+    max-height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+}
+
+.card .card-title {
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+
+/*dashboard cliente*/
+.containerbtn {
+    margin-top:10px;
+    
+}
+
+#btncrud{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#cliente-submit{
+    font-size: 18px;
+    text-align: center;
+    border-radius:5px;
+    padding: 18px 18px;
+    margin-top: 50px;
+    background-color: #FFCA2C;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
+}
+.dashboard-product-container {
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+
+/* Dashboard */
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-product-container th {
+    width: auto;
+}
+
+.dashboard-product-container form{
+    display: inline-block;
+}
+
+/*Edit page*/
+.img-preview{
+    width: 100px;
+    margin-top:20px;
+}
+
+/*Rodape*/
+
+footer {
+    text-align: center;
+    background-color: #000000;
+    color:#fff;
+    position: absolute;
+    padding:5px;
+    bottom: 0;
+    width: 100%;
+    height:40px;
+}
+
+footer p{
+    margin-bottom: 0;
+}
+
+/*formulario*/
+
+#btncadastro{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+    margin-left: 45%;
+}
+
+#product-create-container {
+    padding: 30px;
+    
+}
+
+#product-create-container label{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+#product-create-container input,#product-create-container textarea,
+#product-create-container select{
+    font-size: 15px;
+
+}
+
+/*pagina de compra*/
+#image-container,#info-container{
+    margin-top: 50px;
+}
+
+#image-container img{
+    border-radius:10px;
+    margin-bottom: 110px;
+    
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+#info-container{
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+#info-container p{
+    margin:0;
+    font-size: 20px;
+}
+
+#description-container {
+    margin-bottom: 100px;
+}
+
+#description-container h3{
+    font-family: 'Playfair Display', serif;
+}
+
+#product-compra{
+    background-color: #FFCA2C;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*Carrinho*/
+
+#btnpagamento{
+    margin-bottom: 100px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left:45%;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+
+
+/*botoes de cadastro*/
+
+#cadastro2-submit{
+    font-size: 18px;
+    text-align: center;
+    border-radius:5px;
+    padding: 18px 18px;
+    margin-top: 20px;
+    background-color: #FFCA2C;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#cadastro-submit{
+    font-size: 20px;
+    text-align: center;
+    border-radius:5px;
+    padding: 15px 15px;
+    margin-top: 30px;
+    margin: 10px;
+    background-color: #FFCA2C;
+    width: 20%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+/*Page-contato*/
+
+#img-contato-page {
+    width: 160px;
+    margin-top: 16%;
+    margin-bottom: 15px;
+}
+
+#contato-page {
+    margin-top: auto;
+
+}
+
+#contato-page h2, h1 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 18px;
+
+}
+
+
+/*Page login*/
+.container1{
+    background-image: url(../img/imagemback.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+
+
+.form-group{
+    margin: 40px;
+
+}
+
+.card{
+    border-radius: 25px;
+    margin-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    
+}
+ .container1 img{
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+ }
+
+ #btn-login {
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+ }
+
+ .form-check p{
+    margin-top: 10px;
+    font-size: 20px;
+ }
+
+ #remember{
+     margin-top: 15px;
+ }
+
+.container1 h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#floatingInput{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#floatingPassword{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+
+/*Register*/
+
+.container2{
+    background-image: url(../img/imagemback.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.container2 img{
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+ }
+ .container2 h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-body{
+    padding-bottom:20px;
+}
+
+.card-body p{
+    font-size:20px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+#name{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#email{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+ 
+#password{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#password-confirm{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+#btn-cadastro{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    font-size: 20px;
+
+
+}
+
